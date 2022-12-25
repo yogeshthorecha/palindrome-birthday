@@ -187,5 +187,8 @@ checkBtn.addEventListener("click" , function(){
             outputBox.innerText= "OOPS! your birthday is not a palindrome😢 and the next palindrome date is "+nextPalindrome[1].day+"-"+nextPalindrome[1].month+"-"+nextPalindrome[1].year+" and you missed it by "+nextPalindrome[0]+" days. The previous palindrome date is "+previousPalindrome[1].day+"-"+previousPalindrome[1].month+"-"+previousPalindrome[1].year+" and you missed it by "+previousPalindrome[0]+" days.";
         }
     }
+    else {
+        outputBox.innerText = "please enter your birthday";
+    }
 })
 
